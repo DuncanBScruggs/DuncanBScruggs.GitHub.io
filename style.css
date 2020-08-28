@@ -4,12 +4,7 @@ body {
     padding-top: 56px;
   }
   
-  h1, h2, a {
-    font-style: italic;
-    color: #6e6d6d;
-  }
-
-  h4 {
+  h1, h2, h4, a {
     color: #6e6d6d;
   }
   
@@ -22,6 +17,10 @@ body {
   }
   .card {
     background-color: #ececec;
+  }
+
+  .navbar .navbar-brand {
+    color: #ececec;
   }
 
   /* https://colorhunt.co/palette/201781 */
