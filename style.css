@@ -8,12 +8,20 @@ body {
     font-style: italic;
     color: #FFFFFF;
   }
+
+  h4 {
+    color: #6e6d6d;
+  }
   
   .brand-main {
-    background-color: #f1935c; /* Main Background Color */
+    background-color: #ffaa71; /* Main Background Color */
   }
   
   .brand {
-    background-color: #30475e; /* Header and Footer bar Color */
+    background-color: #ff7171; /* Header and Footer bar Color */
   }
-  
+  .card {
+    background-color: #ececec;
+  }
+
+  /* https://colorhunt.co/palette/201781 */
