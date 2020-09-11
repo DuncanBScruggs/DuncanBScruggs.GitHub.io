@@ -35,5 +35,9 @@ a {
     object-fit: cover;
 }
 
+.d-block {
+    border-radius: 0.25rem;
+}
+
 
 /* https://colorhunt.co/palette/201781 */
