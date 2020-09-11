@@ -2,25 +2,38 @@ body {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
     padding-top: 56px;
-  }
-  
-  h1, h2, h4, a {
+}
+
+h1,
+h2,
+h4,
+a {
     color: #6e6d6d;
-  }
-  
-  .brand-main {
-    background-color: #ffaa71; /* Main Background Color */
-  }
-  
-  .brand {
-    background-color: #ff7171; /* Header and Footer bar Color */
-  }
-  .card {
+}
+
+.brand-main {
+    background-color: #ffaa71;
+    /* Main Background Color */
+}
+
+.brand {
+    background-color: #ff7171;
+    /* Header and Footer bar Color */
+}
+
+.card {
     background-color: #ececec;
-  }
+}
 
-  .navbar .navbar-brand {
+.navbar .navbar-brand {
     color: #ececec;
-  }
+}
 
-  /* https://colorhunt.co/palette/201781 */             
+.card-header img {
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* https://colorhunt.co/palette/201781 */
