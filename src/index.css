@@ -1,7 +1,7 @@
-body {
+body, html {
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
-    padding-top: 56px;
+    background-color: #ffaa71;
 }
 
 h1,
