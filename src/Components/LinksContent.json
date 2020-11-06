@@ -1,0 +1,17 @@
+[
+    {
+        "title": "GitHub Profile",
+        "link": "https://github.com/DuncanBScruggs",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "CodeWarsProfile",
+        "link": "https://www.codewars.com/users/DuncanBScruggs",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "LinkedIn",
+        "link": "https://www.codewars.com/users/DuncanBScruggs",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]

@@ -3,20 +3,29 @@ import BlogPosts from './Components/BlogPosts';
 import NavBar from "./Components/NavBar";
 import TopImage from "./Components/TopImage";
 import Projects from "./Components/Projects";
-import Links from "./Components/Links"
+import Links from "./Components/Links";
+import Home from "./Components/Home";
 
 class App extends Component {
     constructor() {
         super();
         this.pages = [
             { readableName: "Home", url: "home" },
+            { readableName: "Blog", url: "blog" },
             { readableName: "Projects", url: "projects" },
-            { readableName: "Links", url: "links" }
+            { readableName: "Links", url: "links" },
         ];
         this.state = {
             currentPage: 0
         }
         this.setPage = this.setPage.bind(this)
+
+        this.content = [
+            <Home />,
+            <BlogPosts />,
+            <Projects />,
+            <Links />
+        ]
     }
 
     setPage(newPageNum) {
@@ -61,9 +70,8 @@ class App extends Component {
                     <TopImage />
 
                     {/* content here */}
-                    {(this.state.currentPage == 0) ? <BlogPosts /> : ""}
-                    {(this.state.currentPage == 1) ? <Projects /> : ""}
-                    {(this.state.currentPage == 2) ? <Links /> : ""}
+                    {this.content[this.state.currentPage]}
+
 
 
                     {/* end img and content container */}
