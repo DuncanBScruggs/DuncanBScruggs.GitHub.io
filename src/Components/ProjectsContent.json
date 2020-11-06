@@ -1,7 +1,48 @@
 [
+    
     {
         "title": "GitHub Repositories",
         "link": "https://github.com/DuncanBScruggs?tab=repositories",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "SQL Heroes",
+        "link": "https://github.com/DuncanBScruggs/sqlHeroes",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "Fishing Hooks",
+        "link": "https://github.com/DuncanBScruggs/fishing-hooks",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "Puzzle Slider",
+        "link": "https://github.com/DuncanBScruggs/puzzle-slider",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "Restaurant Menu",
+        "link": "https://github.com/DuncanBScruggs/restaurant-menu",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "To Do List",
+        "link": "https://github.com/DuncanBScruggs/todo",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "React Tic Tac Toe",
+        "link": "https://github.com/DuncanBScruggs/react-tic-tac-toe",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "Calculator",
+        "link": "https://github.com/DuncanBScruggs/calculator",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "Tic Tac Toe",
+        "link": "https://github.com/DuncanBScruggs/tic-tac-toe",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
@@ -51,7 +92,7 @@
     },
     {
         "title": "Markup",
-        "link": "https://github.com/DuncanBScruggs?tab=repositories",
+        "link": "https://github.com/DuncanBScruggs/markup",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
 ]

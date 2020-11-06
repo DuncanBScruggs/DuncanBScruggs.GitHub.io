@@ -1,5 +1,17 @@
 [
     {
+        "title": "Seventh Week",
+        "text": "Learning vanilla PHP this week was a wrestling match. I tried to order my php code as much as I could and use it for it strengths with MySQL. trying to make a functioning front end was a headache and quickly want to learn how to utilize it for it backend properties and send the data to the frontend. Laravel next week should ease a lot of the headache."
+    },
+    {
+        "title": "Sixth Week",
+        "text": "Hooks! No more do I need to use class! now I can just use the hook functions to take care of state, mount and update!"
+    },
+    {
+        "title": "Fifth Week",
+        "text": "Learning more and more about react and all the cool things that can be done with it. It is a game changer inhow I structure my frontend and after refactoring has saved me SO much time with my blog and projects."
+    },
+    {
         "title": "Fourth Week",
         "text": "REACT IS AWESOME"
     },
