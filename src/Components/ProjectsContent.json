@@ -6,6 +6,21 @@
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
+        "title": "Attack of the Clones Frontend",
+        "link": "https://github.com/DuncanBScruggs/aotc_react",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "Attack of the Clones Backend",
+        "link": "https://github.com/DuncanBScruggs/aotc_laravel",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title": "Laravel Library",
+        "link": "https://github.com/DuncanBScruggs/laravel_library",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
         "title": "SQL Heroes",
         "link": "https://github.com/DuncanBScruggs/sqlHeroes",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."

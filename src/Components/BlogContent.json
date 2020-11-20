@@ -1,5 +1,13 @@
 [
     {
+        "title": "Ninth Week",
+        "text": "I feel more stable in the backend with my time in Laravel. Linking Laravel Lumen with React was a lot simpler in some ways than I originally thought. I am really liking being able to use both to make a whole. Feeling my opportunities widen and the kinds of projects that once seemed impossible are quite reachable."
+    },
+    {
+        "title": "Eighth Week",
+        "text": "Reflecting on how much I have learned in this time is staggering. Looking back I can see my growth through each project and how much I learned with each week. I feel lacking in the backend still as it is the newest to me."
+    },
+    {
         "title": "Seventh Week",
         "text": "Learning vanilla PHP this week was a wrestling match. I tried to order my php code as much as I could and use it for it strengths with MySQL. trying to make a functioning front end was a headache and quickly want to learn how to utilize it for it backend properties and send the data to the frontend. Laravel next week should ease a lot of the headache."
     },
