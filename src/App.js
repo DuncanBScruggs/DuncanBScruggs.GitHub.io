@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect  } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import BlogPosts from './Components/BlogPosts';
 import NavBar from "./Components/NavBar";
 import TopImage from "./Components/TopImage";
@@ -10,60 +10,54 @@ import { AppProvider } from './Utilities/AppContext'
 
 function app() {
 
-        const pages = [
-            { readableName: "Home", url: "/home" },
-            { readableName: "Projects", url: "/projects" },
-            { readableName: "Blog", url: "/blog" },
-            { readableName: "Links", url: "/links" },
-        ];
+    const pages = [
+        { readableName: "Home", url: "/home" },
+        { readableName: "Projects", url: "/projects" },
+        { readableName: "Blog", url: "/blog" },
+        { readableName: "Links", url: "/links" },
+    ];
 
 
-        const initialContext = {pages};
-    
-        return (
-            <div class="brand-main">
-                <Router>
+    const initialContext = { pages };
+
+    return (
+        <div class="brand-main">
+            <Router>
                 <AppProvider value={initialContext}>
 
-                        <NavBar/>
 
-                        {/* container for TopImage and Content */}
-                        <div class="container">
+                    <NavBar />
+                    {/* container for TopImage and Content */}
+                    <div class="container">
 
-                            {/* Top Image */}
-                            <TopImage />
+                        {/* Top Image */}
 
-                            <div class="row my-5 justify-content-center">
+                        <div class="row my-5 justify-content-center">
 
-                                <div class="col-7">
-                                <Switch>
-                                    <Route path="/home">
+                            <Switch>
+                                <Route path="/home">
                                     <Home />
-                                    </Route>
-                                    <Route path="/projects">
+                                </Route>
+                                <Route path="/projects">
                                     <Projects />
-                                    </Route>
-                                    <Route path="/blog">
+                                </Route>
+                                <Route path="/blog">
                                     <BlogPosts />
-                                    </Route>
-                                    <Route path="/links">
+                                </Route>
+                                <Route path="/links">
                                     <Links />
-                                    </Route>
-                                </Switch>
-                                </div>
-                            </div>
-                            {/* end img and content container */}
+                                </Route>
+                            </Switch>
+
                         </div>
-                        {/* end brand-main */}
+                        {/* end img and content container */}
+                    </div>
+                    {/* end brand-main */}
                 </AppProvider>
-                </Router>
-            </div>
-        );
-    
+            </Router>
+        </div>
+    );
+
 }
-
-
-
-
 
 export default app;
