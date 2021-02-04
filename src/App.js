@@ -11,8 +11,8 @@ class App extends Component {
         super();
         this.pages = [
             { readableName: "Home", url: "home" },
-            { readableName: "Blog", url: "blog" },
             { readableName: "Projects", url: "projects" },
+            { readableName: "Blog", url: "blog" },
             { readableName: "Links", url: "links" },
         ];
         this.state = {
@@ -22,8 +22,8 @@ class App extends Component {
 
         this.content = [
             <Home />,
-            <BlogPosts />,
             <Projects />,
+            <BlogPosts />,
             <Links />
         ]
     }

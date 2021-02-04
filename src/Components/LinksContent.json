@@ -2,16 +2,16 @@
     {
         "title": "GitHub Profile",
         "link": "https://github.com/DuncanBScruggs",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "GitHub Profile and repos"
     },
     {
         "title": "CodeWarsProfile",
         "link": "https://www.codewars.com/users/DuncanBScruggs",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "CodeWars Profile"
     },
     {
         "title": "LinkedIn",
-        "link": "https://www.codewars.com/users/DuncanBScruggs",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "link": "https://www.linkedin.com/in/duncanbscruggs/",
+        "text": "LinkedIn profile"
     }
 ]

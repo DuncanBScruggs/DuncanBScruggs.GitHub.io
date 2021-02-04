@@ -6,6 +6,11 @@
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
+        "title": "Game Progress Tracker",
+        "link": "https://github.com/DuncanBScruggs/gpt_react",
+        "text": "https://game-progress-tracker-20895.web.app/main"
+    },
+    {
         "title": "Attack of the Clones Frontend",
         "link": "https://github.com/DuncanBScruggs/aotc_react",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
