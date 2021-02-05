@@ -1,8 +1,6 @@
 import React, { Component, useState, useEffect } from 'react';
 import BlogPosts from './Components/BlogPosts';
 import NavBar from "./Components/NavBar";
-import TopImage from "./Components/TopImage";
-import Projects from "./Components/Projects";
 import Links from "./Components/Links";
 import Home from "./Components/Home";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -12,11 +10,9 @@ function app() {
 
     const pages = [
         { readableName: "Home", url: "/" },
-        // { readableName: "Projects", url: "/projects" },
         { readableName: "Blog", url: "/blog" },
         { readableName: "Links", url: "/links" },
     ];
-
 
     const initialContext = { pages };
 
@@ -25,33 +21,21 @@ function app() {
             <Router>
                 <AppProvider value={initialContext}>
 
-
                     <NavBar />
-                    {/* container for TopImage and Content */}
-                    {/* <div class="container"> */}
 
-                        {/* Top Image */}
+                    <Switch>
+                        <Route exact path="/">
+                            <Home />
+                        </Route>
+                        <Route path="/blog">
+                            <BlogPosts />
+                        </Route>
+                        <Route path="/links">
+                            <Links />
+                        </Route>
+                    </Switch>
 
-                        {/* <div class="row my-5 justify-content-center"> */}
 
-                            <Switch>
-                                <Route path="/">
-                                    <Home />
-                                </Route>
-                                {/* <Route path="/projects">
-                                    <Projects />
-                                </Route> */}
-                                <Route path="/blog">
-                                    <BlogPosts />
-                                </Route>
-                                <Route path="/links">
-                                    <Links />
-                                </Route>
-                            </Switch>
-
-                        {/* </div> */}
-                        {/* end img and content container */}
-                    {/* </div> */}
                     {/* end brand-main */}
                 </AppProvider>
             </Router>
