@@ -12,7 +12,7 @@ function app() {
 
     const pages = [
         { readableName: "Home", url: "/home" },
-        { readableName: "Projects", url: "/projects" },
+        // { readableName: "Projects", url: "/projects" },
         { readableName: "Blog", url: "/blog" },
         { readableName: "Links", url: "/links" },
     ];
@@ -28,19 +28,19 @@ function app() {
 
                     <NavBar />
                     {/* container for TopImage and Content */}
-                    <div class="container">
+                    {/* <div class="container"> */}
 
                         {/* Top Image */}
 
-                        <div class="row my-5 justify-content-center">
+                        {/* <div class="row my-5 justify-content-center"> */}
 
                             <Switch>
                                 <Route path="/home">
                                     <Home />
                                 </Route>
-                                <Route path="/projects">
+                                {/* <Route path="/projects">
                                     <Projects />
-                                </Route>
+                                </Route> */}
                                 <Route path="/blog">
                                     <BlogPosts />
                                 </Route>
@@ -49,9 +49,9 @@ function app() {
                                 </Route>
                             </Switch>
 
-                        </div>
+                        {/* </div> */}
                         {/* end img and content container */}
-                    </div>
+                    {/* </div> */}
                     {/* end brand-main */}
                 </AppProvider>
             </Router>

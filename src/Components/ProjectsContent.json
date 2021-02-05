@@ -2,8 +2,8 @@
     
     {
         "title": "GitHub Repositories",
-        "link": "https://github.com/DuncanBScruggs?tab=repositories",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "link": "https://github.com/DuncanBScruggs",
+        "text": "https://github.com/DuncanBScruggs"
     },
     {
         "title": "Game Progress Tracker",
@@ -13,42 +13,42 @@
     {
         "title": "Attack of the Clones Frontend",
         "link": "https://github.com/DuncanBScruggs/aotc_react",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": ""
     },
     {
         "title": "Attack of the Clones Backend",
         "link": "https://github.com/DuncanBScruggs/aotc_laravel",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "Database for Attack of the Clones"
     },
     {
         "title": "Laravel Library",
         "link": "https://github.com/DuncanBScruggs/laravel_library",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": ""
     },
     {
         "title": "SQL Heroes",
         "link": "https://github.com/DuncanBScruggs/sqlHeroes",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": ""
     },
     {
         "title": "Fishing Hooks",
         "link": "https://github.com/DuncanBScruggs/fishing-hooks",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://fishing-hooks-59f24.web.app/"
     },
     {
         "title": "Puzzle Slider",
         "link": "https://github.com/DuncanBScruggs/puzzle-slider",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://puzzle-slider-ad3ed.web.app/"
     },
     {
         "title": "Restaurant Menu",
         "link": "https://github.com/DuncanBScruggs/restaurant-menu",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://react-restaurant-66c7e.web.app/#"
     },
     {
         "title": "To Do List",
         "link": "https://github.com/DuncanBScruggs/todo",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://to-do-list-ef1cd.web.app/"
     },
     {
         "title": "React Tic Tac Toe",
@@ -58,62 +58,62 @@
     {
         "title": "Calculator",
         "link": "https://github.com/DuncanBScruggs/calculator",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/calculator/"
     },
     {
         "title": "Tic Tac Toe",
         "link": "https://github.com/DuncanBScruggs/tic-tac-toe",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/tic-tac-toe/"
     },
     {
         "title": "Weather App",
         "link": "https://github.com/DuncanBScruggs/weather-app",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/weather-app/"
     },
     {
         "title": "Bouncing Balls",
         "link": "https://github.com/DuncanBScruggs/bouncing-balls",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/bouncing-balls/"
     },
     {
         "title": "Countdown Timer",
         "link": "https://github.com/DuncanBScruggs/countdownTimer",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/countdownTimer/"
     },
     {
         "title": "Digital clock",
         "link": "https://github.com/DuncanBScruggs/digitalclock" ,
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/digitalclock/"
     },
     {
         "title": "Image gallery",
         "link": "https://github.com/DuncanBScruggs/imagegallery",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/imagegallery/"
     },
     {
         "title": "Mozilla splash page",
         "link": "https://github.com/DuncanBScruggs/mozillasplashpage",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/mozillasplashpage/"
     },
     {
         "title": "Silly Story generator",
         "link": "https://github.com/DuncanBScruggs/sillystory",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/sillystory/"
     },
     {
         "title": "Pseudo Code",
         "link": "https://github.com/DuncanBScruggs/pseudoCode",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "Psuedo Code"
     },
     {
         "title": "Structuring a page of content",
         "link": "https://github.com/DuncanBScruggs/content",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/content/"
     },
     {
         "title": "Markup",
         "link": "https://github.com/DuncanBScruggs/markup",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "text": "https://duncanbscruggs.github.io/markup/"
     }
 ]
 

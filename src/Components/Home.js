@@ -1,16 +1,19 @@
 import React from "react";
-import TopImage from "./TopImage";
+import Projects from "./Projects";
 
 function Home() {
     return (
         <>
-            <TopImage />
 
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">Hi, I'm Duncan Scruggs! I'm a full-stack developer with a passion for learning</h1>
+            <div className="row justify-content-center">
+                <div class="jumbotron jumbotron-fluid welcome">
+                    <div class="container">
+                        <h1 class="display-4 welcome-text">Hi, I'm Duncan Scruggs! I'm a full-stack developer with a passion for learning</h1>
+                    </div>
                 </div>
             </div>
+
+            <Projects/>            
         </>
     )
 }

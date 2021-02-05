@@ -1,7 +1,7 @@
 body, html {
     font-family: helvetica, arial, sans-serif;
-    margin: 2em;
-    background-color: #ffaa71;
+    margin: 1em;
+    background-color: #ececec;
 }
 
 h1,
@@ -12,7 +12,7 @@ a {
 }
 
 .brand-main {
-    background-color: #ffaa71;
+    background-color: #ececec;
     /* Main Background Color */
 }
 
@@ -27,6 +27,7 @@ a {
 
 .navbar .navbar-brand {
     color: #ececec;
+    margin-bottom: 0px;
 }
 
 .card-header img {
@@ -37,4 +38,19 @@ a {
 
 .d-block {
     border-radius: 0.25rem;
+}
+
+.jumbotron{
+    background: url("/img/masaimarasunset.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 20% 2rem;
+    min-width: 100vw;
+}
+
+.welcome-text {
+    color:white;
+    text-align: center;
+    margin: auto;
+    max-width: 40rem;
+    font-size: 2.5rem;
 }

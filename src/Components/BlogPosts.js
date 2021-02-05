@@ -3,7 +3,7 @@ import BlogContent from "./BlogContent.json"
 
 function BlogPosts() {
     return (
-        <div class="row">
+        <div class="row justify-content-center">
 
             {BlogContent.map((item) => {
                 return (
