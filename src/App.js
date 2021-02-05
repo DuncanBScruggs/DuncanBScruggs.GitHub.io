@@ -1,89 +1,63 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import BlogPosts from './Components/BlogPosts';
 import NavBar from "./Components/NavBar";
 import TopImage from "./Components/TopImage";
 import Projects from "./Components/Projects";
 import Links from "./Components/Links";
 import Home from "./Components/Home";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { AppProvider } from './Utilities/AppContext'
 
-class App extends Component {
-    constructor() {
-        super();
-        this.pages = [
-            { readableName: "Home", url: "home" },
-            { readableName: "Projects", url: "projects" },
-            { readableName: "Blog", url: "blog" },
-            { readableName: "Links", url: "links" },
-        ];
-        this.state = {
-            currentPage: 0
-        }
-        this.setPage = this.setPage.bind(this)
+function app() {
 
-        this.content = [
-            <Home />,
-            <Projects />,
-            <BlogPosts />,
-            <Links />
-        ]
-    }
-
-    setPage(newPageNum) {
-        this.setState({ currentPage: newPageNum })
-    }
-
-    componentDidMount() {
-        console.log(" in componentDidMount method")
-
-        let currentPage = window.localStorage.getItem("currentPage")
-
-        if (currentPage) {
-            console.log("found currentPage, ")
-            this.setState({ currentPage: JSON.parse(currentPage) })
-        }
-        else {
-            console.log("did not find currentPage")
-            window.localStorage.setItem("currentPage", 0)
-        }
-    }
-
-    componentDidUpdate() {
-        console.log("in componentDidUpdate", this.state.currentPage)
-        window.localStorage.setItem("currentPage", JSON.stringify(this.state.currentPage))
-    }
-
-    render() {
-        return (
-            <div class="brand-main">
-
-                {/* nav bar */}
-                <NavBar
-                    pages={this.pages}
-                    currentPage={this.state}
-                    setPage={this.setPage}
-                />
-
-                {/* container for TopImage and Content */}
-                <div class="container">
-
-                    {/* Top Image */}
-                    <TopImage />
-
-                    {/* content here */}
-                    {this.content[this.state.currentPage]}
+    const pages = [
+        { readableName: "Home", url: "/home" },
+        // { readableName: "Projects", url: "/projects" },
+        { readableName: "Blog", url: "/blog" },
+        { readableName: "Links", url: "/links" },
+    ];
 
 
+    const initialContext = { pages };
 
-                    {/* end img and content container */}
-                </div>
-                {/* end brand-main */}
-            </div>
-        );
-    }
+    return (
+        <div class="brand-main">
+            <Router>
+                <AppProvider value={initialContext}>
+
+
+                    <NavBar />
+                    {/* container for TopImage and Content */}
+                    {/* <div class="container"> */}
+
+                        {/* Top Image */}
+
+                        {/* <div class="row my-5 justify-content-center"> */}
+
+                            <Switch>
+                                <Route path="/home">
+                                    <Home />
+                                </Route>
+                                {/* <Route path="/projects">
+                                    <Projects />
+                                </Route> */}
+                                <Route path="/blog">
+                                    <BlogPosts />
+                                </Route>
+                                <Route path="/links">
+                                    <Links />
+                                </Route>
+                            </Switch>
+
+                        {/* </div> */}
+                        {/* end img and content container */}
+                    {/* </div> */}
+                    {/* end brand-main */}
+                </AppProvider>
+            </Router>
+        </div>
+    );
+
 }
 
-
-
-
-
-export default App;
+export default app;
