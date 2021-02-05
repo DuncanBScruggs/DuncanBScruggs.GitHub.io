@@ -11,7 +11,7 @@ import { AppProvider } from './Utilities/AppContext'
 function app() {
 
     const pages = [
-        { readableName: "Home", url: "/home" },
+        { readableName: "Home", url: "/" },
         // { readableName: "Projects", url: "/projects" },
         { readableName: "Blog", url: "/blog" },
         { readableName: "Links", url: "/links" },
@@ -35,7 +35,7 @@ function app() {
                         {/* <div class="row my-5 justify-content-center"> */}
 
                             <Switch>
-                                <Route path="/home">
+                                <Route path="/">
                                     <Home />
                                 </Route>
                                 {/* <Route path="/projects">
