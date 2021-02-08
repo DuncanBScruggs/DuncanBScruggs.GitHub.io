@@ -3,7 +3,7 @@ import LinksContent from "./LinksContent.json"
 
 function Links() {
     return (
-        <div class="row justify-content-center">
+        <div class="row my-5 justify-content-center">
             {LinksContent.map((item) => {
                 return (
                     <div class="card text-center col-12 col-sm-6 col-lg-3">
