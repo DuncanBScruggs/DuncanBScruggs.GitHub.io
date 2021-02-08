@@ -36,7 +36,7 @@ function App() {
                         <Route path="/links">
                             <Links />
                         </Route>
-                        <Route path={`/blog/:blogName`}>
+                        <Route path={`/blog/:blogurl`}>
                             <BlogPosts />
                         </Route>
                     </Switch>

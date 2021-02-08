@@ -9,9 +9,9 @@ function BlogPosts() {
 
     const history = useHistory();
 
-    function selectBlog(blog) {
-        setBlogName(blog);
-        history.push(`/blog/${blog}`);
+    function selectBlog(blogurl) {
+        setBlogName(blogurl);
+        history.push(`/blog/${blogurl}`);
     }
 
 
