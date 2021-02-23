@@ -1,54 +1,69 @@
 [
     {
-        "title": "Ninth Week",
-        "text": "I feel more stable in the backend with my time in Laravel. Linking Laravel Lumen with React was a lot simpler in some ways than I originally thought. I am really liking being able to use both to make a whole. Feeling my opportunities widen and the kinds of projects that once seemed impossible are quite reachable."
+        "blog": "bootcamp",
+        "posts": 
+        [
+            {
+                "title": "Ninth Week",
+                "text": "I feel more stable in the backend with my time in Laravel. Linking Laravel Lumen with React was a lot simpler in some ways than I originally thought. I am really liking being able to use both to make a whole. Feeling my opportunities widen and the kinds of projects that once seemed impossible are quite reachable."
+            },
+            {
+                "title": "Eighth Week",
+                "text": "Reflecting on how much I have learned in this time is staggering. Looking back I can see my growth through each project and how much I learned with each week. I feel lacking in the backend still as it is the newest to me."
+            },
+            {
+                "title": "Seventh Week",
+                "text": "Learning vanilla PHP this week was a wrestling match. I tried to order my php code as much as I could and use it for it strengths with MySQL. trying to make a functioning front end was a headache and quickly want to learn how to utilize it for it backend properties and send the data to the frontend. Laravel next week should ease a lot of the headache."
+            },
+            {
+                "title": "Sixth Week",
+                "text": "Hooks! No more do I need to use class! now I can just use the hook functions to take care of state, mount and update!"
+            },
+            {
+                "title": "Fifth Week",
+                "text": "Learning more and more about react and all the cool things that can be done with it. It is a game changer inhow I structure my frontend and after refactoring has saved me SO much time with my blog and projects."
+            },
+            {
+                "title": "Fourth Week",
+                "text": "REACT IS AWESOME"
+            },
+            {
+                "title": "Third Week",
+                "text": "I find JavaScript very useful to be able to make my ideas become concrete. I am interested to learn more about class based programming. MVC has definitely helped me pseudocode better and thing through how i want my program to work. My current design pattern that i need to stop using is being a cowboy *bang* *bang* shooting from the hip."
+            },
+            {
+                "title": "Second Week",
+                "text": "Good progress this week. finished the projects set for this week early on and started the tic tac toe for next week. I felt a lot of breakthroughs this week while working on tic tac toe.  I felt encouraged by my one on one with Ian and Justin.   I know I am in good hands with them and their guidance in our session has given me a lot to think about and improve but I never felt discouraged but infact uplifted by their evaluation, knowing they are looking out for all of us."
+            },
+            {
+                "title": "First Week",
+                "text": "WOW I haven not been getting up this early consistently in a long time! Honestly feels pretty good, although starting an hour later would be pretty nice hah. I feel genuinely productive and like I am making progress, even when I am stuck on something. Getting to know everyone and be able to talk to them about the things we are learning but also getting to know them as people has been wonderful!"
+            },
+            {
+                "title": "Pre-Work Fourth Week",
+                "text": "HFourth week and staring at the beginning of the in person meat and potatoes part of the class starting next week. I am excited but also nervous about next week and the fact that my plan to dual boot my laptop with macOS on it failed didn't help. I was able to put a virtual machine running Catalina but it was less than ideal. Finding a macbook air last minute definitely has alleviated a lot of that nervousness. This week's projects took some research to work through. Specifically learning about the Date() function, other functions like .getHours(). Checking my math on how to accurately calculate days, hours, minutes, and seconds from milliseconds. The katas from this week really made me think and I wanted to try to solve them more efficiently and really think about my work flow. Specifically after I finished the array plus array kata I saw that there was a Concatenate function that could have been used."
+            },
+            {
+                "title": "Pre-Work Third Week",
+                "text": "Had to do a lot of refreshing on my JavaScript skills this week. Spent way more time than I thought on the sum of all numbers from a to b than I thought since I had made one before in Java. I knew to use my Gauss formula which was right sometimes but failed to remember to use the MATH.abs function with it to make sure it was always giving the correct output! lots of time banging my head until recalling to use the function."
+            },
+            {
+                "title": "Pre-Work Second Week",
+                "text": "Pseudo Coding is a super useful practice that i have used in the past but I never knew there was a more standardized formatting. I struggled a bit to remember the new formatting we learned this week but still need to practice. I am really excited to better convey my thoughts and ideas more clearly to others through the proper use of pseudo code format."
+            },
+            {
+                "title": "Pre-Work First Week",
+                "text": "I really did not know what to expect my first week of bootcamp at Awesome Inc and that is even after going through the intro to web development course. I really shouldn't have been surprised how fast we hit the ground running but Ithink it is a good way to learn, no BS just get to it. I struggled with getting my git setup talking to github at first but felt really good once i figured the flow out. Such a powerful tool that I am learning to use excites meat the possibilities! Added links on my blog to my projects and links pages and populated them with some content, while also touching up some css."
+            }
+        ]
     },
     {
-        "title": "Eighth Week",
-        "text": "Reflecting on how much I have learned in this time is staggering. Looking back I can see my growth through each project and how much I learned with each week. I feel lacking in the backend still as it is the newest to me."
-    },
-    {
-        "title": "Seventh Week",
-        "text": "Learning vanilla PHP this week was a wrestling match. I tried to order my php code as much as I could and use it for it strengths with MySQL. trying to make a functioning front end was a headache and quickly want to learn how to utilize it for it backend properties and send the data to the frontend. Laravel next week should ease a lot of the headache."
-    },
-    {
-        "title": "Sixth Week",
-        "text": "Hooks! No more do I need to use class! now I can just use the hook functions to take care of state, mount and update!"
-    },
-    {
-        "title": "Fifth Week",
-        "text": "Learning more and more about react and all the cool things that can be done with it. It is a game changer inhow I structure my frontend and after refactoring has saved me SO much time with my blog and projects."
-    },
-    {
-        "title": "Fourth Week",
-        "text": "REACT IS AWESOME"
-    },
-    {
-        "title": "Third Week",
-        "text": "I find JavaScript very useful to be able to make my ideas become concrete. I am interested to learn more about class based programming. MVC has definitely helped me pseudocode better and thing through how i want my program to work. My current design pattern that i need to stop using is being a cowboy *bang* *bang* shooting from the hip."
-    },
-    {
-        "title": "Second Week",
-        "text": "Good progress this week. finished the projects set for this week early on and started the tic tac toe for next week. I felt a lot of breakthroughs this week while working on tic tac toe.  I felt encouraged by my one on one with Ian and Justin.   I know I am in good hands with them and their guidance in our session has given me a lot to think about and improve but I never felt discouraged but infact uplifted by their evaluation, knowing they are looking out for all of us."
-    },
-    {
-        "title": "First Week",
-        "text": "WOW I haven not been getting up this early consistently in a long time! Honestly feels pretty good, although starting an hour later would be pretty nice hah. I feel genuinely productive and like I am making progress, even when I am stuck on something. Getting to know everyone and be able to talk to them about the things we are learning but also getting to know them as people has been wonderful!"
-    },
-    {
-        "title": "Pre-Work Fourth Week",
-        "text": "HFourth week and staring at the beginning of the in person meat and potatoes part of the class starting next week. I am excited but also nervous about next week and the fact that my plan to dual boot my laptop with macOS on it failed didn't help. I was able to put a virtual machine running Catalina but it was less than ideal. Finding a macbook air last minute definitely has alleviated a lot of that nervousness. This week's projects took some research to work through. Specifically learning about the Date() function, other functions like .getHours(). Checking my math on how to accurately calculate days, hours, minutes, and seconds from milliseconds. The katas from this week really made me think and I wanted to try to solve them more efficiently and really think about my work flow. Specifically after I finished the array plus array kata I saw that there was a Concatenate function that could have been used."
-    },
-    {
-        "title": "Pre-Work Third Week",
-        "text": "Had to do a lot of refreshing on my JavaScript skills this week. Spent way more time than I thought on the sum of all numbers from a to b than I thought since I had made one before in Java. I knew to use my Gauss formula which was right sometimes but failed to remember to use the MATH.abs function with it to make sure it was always giving the correct output! lots of time banging my head until recalling to use the function."
-    },
-    {
-        "title": "Pre-Work Second Week",
-        "text": "Pseudo Coding is a super useful practice that i have used in the past but I never knew there was a more standardized formatting. I struggled a bit to remember the new formatting we learned this week but still need to practice. I am really excited to better convey my thoughts and ideas more clearly to others through the proper use of pseudo code format."
-    },
-    {
-        "title": "Pre-Work First Week",
-        "text": "I really did not know what to expect my first week of bootcamp at Awesome Inc and that is even after going through the intro to web development course. I really shouldn't have been surprised how fast we hit the ground running but Ithink it is a good way to learn, no BS just get to it. I struggled with getting my git setup talking to github at first but felt really good once i figured the flow out. Such a powerful tool that I am learning to use excites meat the possibilities! Added links on my blog to my projects and links pages and populated them with some content, while also touching up some css."
+        "blog": "Learning",
+        "posts":[
+            {
+                "title": "Let's Keep Learning!",
+                "text": "Welcome to my learning blog! here I will make posts about what I have learned in regards to programming recently. Whether it is new information about React hooks or learning an entire new language like Python. I will write about those experiences here."
+            }
+        ]
     }
 ]
