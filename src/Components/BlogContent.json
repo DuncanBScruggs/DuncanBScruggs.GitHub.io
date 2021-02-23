@@ -58,11 +58,11 @@
         ]
     },
     {
-        "blog": "test",
+        "blog": "Learning",
         "posts":[
             {
-                "title": "Pre-Work First Week",
-                "text": "I really did not know what to expect my first week of bootcamp at Awesome Inc and that is even after going through the intro to web development course. I really shouldn't have been surprised how fast we hit the ground running but Ithink it is a good way to learn, no BS just get to it. I struggled with getting my git setup talking to github at first but felt really good once i figured the flow out. Such a powerful tool that I am learning to use excites meat the possibilities! Added links on my blog to my projects and links pages and populated them with some content, while also touching up some css."
+                "title": "Let's Keep Learning!",
+                "text": "Welcome to my learning blog! here I will make posts about what I have learned in regards to programming recently. Whether it is new information about React hooks or learning an entire new language like Python. I will write about those experiences here."
             }
         ]
     }
