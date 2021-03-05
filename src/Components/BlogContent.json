@@ -61,6 +61,10 @@
         "blog": "learning",
         "posts":[
             {
+                "title": "Adventures in Python",
+                "text": "I love starting to learn a new programming language.  You write the cleanest most beautiful code you will ever in that language and it tells you Hello World! I am liking Python so far and now understand better the jokes made of that its like writing pseudo code.  Writing 'and' instead of '&&' and the abscence of curly braces and semicolons will surely trip me up when switching between languages. I'm excited to poke around our Discord bot that was written in Python to explore more possibilities and see what can be achieved."
+            },
+            {
                 "title": "Let's Keep Learning!",
                 "text": "Welcome to my learning blog! here I will make posts about what I have learned in regards to programming recently. Whether it is new information about React hooks or learning an entire new language like Python. I will write about those experiences here."
             }
